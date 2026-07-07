@@ -440,9 +440,11 @@ export default function App() {
             </div>
           </div>
 
-        </div>
+        </div> {/* Closes inner container panel */}
 
-      </main>
-    </div>
+      </div> {/* FIXED: Replaced </main> with </div> to match the original opening wrapper */}
+    </div> {/* Closes main app background div */}
   );
 }
+
+export default App;
